@@ -9,10 +9,10 @@ const frameMetadata = getFrameMetadata({
     },
 
     {
-      action: 'tx',
+      //action: 'tx',
       label: 'Check Allowance',
-      target: `${NEXT_PUBLIC_URL}/api/tx`,
-      postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+      //target: `${NEXT_PUBLIC_URL}/api/tx`,
+      //postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     }, 
 
     /* {
@@ -26,9 +26,9 @@ const frameMetadata = getFrameMetadata({
     src: `${NEXT_PUBLIC_URL}/park-3.png`,
     aspectRatio: '1.91:1',
   },
-  input: {
+/*   input: {
     text: 'Tell me a story',
-  },
+  }, */
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
